@@ -1,4 +1,4 @@
-package com.udemy.web.controller;
+package com.sounak.web.controller;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.udemy.web.service.TodoService;
-import com.udemy.web.service.UserService;
-import com.udemy.web.todo.Todo;
-import com.udemy.web.todo.User;
+import com.sounak.web.service.TodoService;
+import com.sounak.web.service.UserService;
+import com.sounak.web.todo.Todo;
+import com.sounak.web.todo.User;
 
 import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;

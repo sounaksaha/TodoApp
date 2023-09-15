@@ -1,10 +1,10 @@
-package com.udemy.web.service;
+package com.sounak.web.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.udemy.web.repo.UserRepo;
-import com.udemy.web.todo.User;
+import com.sounak.web.repo.UserRepo;
+import com.sounak.web.todo.User;
 
 @Service
 public class UserServiceImpl implements UserService {

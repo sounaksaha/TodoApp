@@ -1,4 +1,4 @@
-package com.udemy.web.repo;
+package com.sounak.web.repo;
 
 
 import java.time.LocalDate;
@@ -7,8 +7,8 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.udemy.web.todo.Todo;
-import com.udemy.web.todo.User;
+import com.sounak.web.todo.Todo;
+import com.sounak.web.todo.User;
 
 public interface TodoRepo extends JpaRepository<Todo, Integer> {
 	List<Todo> findByUser(User user);

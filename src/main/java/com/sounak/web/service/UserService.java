@@ -1,6 +1,6 @@
-package com.udemy.web.service;
+package com.sounak.web.service;
 
-import com.udemy.web.todo.User;
+import com.sounak.web.todo.User;
 
 
 public interface UserService {

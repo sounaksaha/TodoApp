@@ -1,4 +1,4 @@
-package com.udemy.web;
+package com.sounak.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

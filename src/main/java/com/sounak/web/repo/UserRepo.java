@@ -1,9 +1,9 @@
-package com.udemy.web.repo;
+package com.sounak.web.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
 
-import com.udemy.web.todo.User;
+import com.sounak.web.todo.User;
 
 public interface UserRepo extends JpaRepository<User, Integer> {
 	public User findByEmail(String email);

@@ -1,4 +1,4 @@
-package com.udemy.web.controller;
+package com.sounak.web.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.udemy.web.service.UserService;
-import com.udemy.web.todo.User;
+import com.sounak.web.service.UserService;
+import com.sounak.web.todo.User;
 
 import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;

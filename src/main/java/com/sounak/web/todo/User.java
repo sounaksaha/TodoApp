@@ -1,4 +1,4 @@
-package com.udemy.web.todo;
+package com.sounak.web.todo;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

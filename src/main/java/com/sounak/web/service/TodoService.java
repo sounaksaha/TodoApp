@@ -1,4 +1,4 @@
-package com.udemy.web.service;
+package com.sounak.web.service;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -6,9 +6,9 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.udemy.web.repo.TodoRepo;
-import com.udemy.web.todo.Todo;
-import com.udemy.web.todo.User;
+import com.sounak.web.repo.TodoRepo;
+import com.sounak.web.todo.Todo;
+import com.sounak.web.todo.User;
 
 @Service
 public class TodoService {
