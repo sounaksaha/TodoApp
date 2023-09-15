@@ -1,4 +1,4 @@
-package com.udemy.web;
+package com.sounak.web;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
